@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
 
-exports[`Swiper Swiper swiperVue demo works fine 1`] = `
+exports[`Swiper > Swiper swiperVue demo works fine 1`] = `
 <div
   class="tdesign-demo-block--swiper"
 >
@@ -610,7 +610,7 @@ exports[`Swiper Swiper swiperVue demo works fine 1`] = `
 </div>
 `;
 
-exports[`Swiper Swiper verticalVue demo works fine 1`] = `
+exports[`Swiper > Swiper verticalVue demo works fine 1`] = `
 <div
   class="t-swiper"
 >
