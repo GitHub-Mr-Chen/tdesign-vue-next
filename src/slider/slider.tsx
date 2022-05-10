@@ -39,6 +39,7 @@ export default defineComponent({
     event: 'change',
   },
   props: { ...props },
+
   setup(props, ctx) {
     const disabled = useFormDisabled();
     const COMPONENT_NAME = usePrefixClass('slider');

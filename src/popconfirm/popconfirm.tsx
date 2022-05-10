@@ -11,12 +11,19 @@ import useVModel from '../hooks/useVModel';
 export default defineComponent({
   name: 'TPopconfirm',
   props,
+
   setup(props) {
     const { global } = useConfig('popconfirm');
     const COMPONENT_NAME = usePrefixClass('popconfirm');
 
     const { visible, modelValue } = toRefs(props);
-    const [innerVisible, setInnerVisible] = useVModel(visible, modelValue, props.defaultVisible, props.onVisibleChange);
+    const [innerVisible, setInnerVisible] = useVModel(
+      visible,
+      modelValue,
+      props.defaultVisible,
+      props.onVisibleChange,
+      'visible',
+    );
 
     const confirmBtnAction = (e: MouseEvent) => {
       props.onConfirm?.({ e });
