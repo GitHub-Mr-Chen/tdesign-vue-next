@@ -13,7 +13,7 @@ export default {
   /** 是否禁用选项卡 */
   disabled: Boolean,
   /** 是否可拖拽 */
-  drag: Boolean,
+  dragSort: Boolean,
   /** 选项卡列表 */
   list: {
     type: Array as PropType<TdTabsProps['list']>,
@@ -65,5 +65,5 @@ export default {
   /** 删除选项卡时触发 */
   onRemove: Function as PropType<TdTabsProps['onRemove']>,
   /** 选项卡拖拽结束时触发 */
-  onDragend: Function,
+  onDragSort: Function as PropType<TdTabsProps['onDragSort']>,
 };
