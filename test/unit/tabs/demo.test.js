@@ -3,7 +3,7 @@
  */
 
 import { mount } from '@vue/test-utils';
-import dragVue from '@/examples/tabs/demos/drag.vue';
+import dragSortVue from '@/examples/tabs/demos/drag-sort.vue';
 import banVue from '@/examples/tabs/demos/ban.vue';
 import baseVue from '@/examples/tabs/demos/base.vue';
 import combinationVue from '@/examples/tabs/demos/combination.vue';
@@ -15,7 +15,7 @@ import sizeVue from '@/examples/tabs/demos/size.vue';
 import themeVue from '@/examples/tabs/demos/theme.vue';
 
 const mapper = {
-  dragVue,
+  dragSortVue,
   banVue,
   baseVue,
   combinationVue,
