@@ -12,7 +12,7 @@ export default {
   addable: Boolean,
   /** 是否禁用选项卡 */
   disabled: Boolean,
-  /** 是否可拖拽 */
+  /** 是否开启拖拽调整顺序 */
   dragSort: Boolean,
   /** 选项卡列表 */
   list: {
@@ -62,8 +62,8 @@ export default {
   onAdd: Function as PropType<TdTabsProps['onAdd']>,
   /** 激活的选项卡发生变化时触发 */
   onChange: Function as PropType<TdTabsProps['onChange']>,
+  /** 拖拽排序时触发 */
+  onDragSort: Function as PropType<TdTabsProps['onDragSort']>,
   /** 删除选项卡时触发 */
   onRemove: Function as PropType<TdTabsProps['onRemove']>,
-  /** 选项卡拖拽结束时触发 */
-  onDragSort: Function as PropType<TdTabsProps['onDragSort']>,
 };
