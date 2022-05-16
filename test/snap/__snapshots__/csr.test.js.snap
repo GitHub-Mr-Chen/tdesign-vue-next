@@ -5,20 +5,22 @@ exports[`csr snapshot test > csr test ./examples/affix/demos/base.vue 1`] = `
   class="affix-base"
 >
   <div>
-    
-    <button
-      class="t-button t-size-m t-button--variant-base t-button--theme-primary"
-      type="button"
-    >
-      <span
-        class="t-button__text"
+    <div>
+      
+      <button
+        class="t-button t-size-m t-button--variant-base t-button--theme-primary"
+        type="button"
       >
-        
-        固钉
-        
-      </span>
-    </button>
-    
+        <span
+          class="t-button__text"
+        >
+          
+          固钉
+          
+        </span>
+      </button>
+      
+    </div>
   </div>
 </div>
 `;
@@ -39,21 +41,23 @@ exports[`csr snapshot test > csr test ./examples/affix/demos/container.vue 1`] =
       <div
         data-v-43b80f2b=""
       >
-        
-        <button
-          class="t-button t-size-m t-button--variant-base t-button--theme-primary"
-          data-v-43b80f2b=""
-          type="button"
-        >
-          <span
-            class="t-button__text"
+        <div>
+          
+          <button
+            class="t-button t-size-m t-button--variant-base t-button--theme-primary"
+            data-v-43b80f2b=""
+            type="button"
           >
-            
-            FixedTop top:0
-            
-          </span>
-        </button>
-        
+            <span
+              class="t-button__text"
+            >
+              
+              affixed :false
+              
+            </span>
+          </button>
+          
+        </div>
       </div>
     </div>
   </div>
@@ -868,95 +872,97 @@ exports[`csr snapshot test > csr test ./examples/anchor/demos/base.vue 1`] = `
   <div
     data-v-775183f2=""
   >
-    
-    <div
-      class="t-anchor t-size-m"
-    >
-      <div
-        class="t-anchor__line"
-      >
-        <div
-          class="t-anchor__line-cursor-wrapper"
-        >
-          <div
-            class="t-anchor__line-cursor"
-          />
-        </div>
-      </div>
+    <div>
       
       <div
-        class="t-anchor__item"
-        data-v-775183f2=""
+        class="t-anchor t-size-m"
       >
-        <a
-          class="t-anchor__item-link"
-          href="#基础锚点"
-          target="_self"
-          title="基础锚点"
+        <div
+          class="t-anchor__line"
         >
-          基础锚点
-        </a>
-        <!---->
-      </div>
-      <div
-        class="t-anchor__item"
-        data-v-775183f2=""
-      >
-        <a
-          class="t-anchor__item-link"
-          href="#多级锚点"
-          target="_self"
-          title="多级锚点"
+          <div
+            class="t-anchor__line-cursor-wrapper"
+          >
+            <div
+              class="t-anchor__line-cursor"
+            />
+          </div>
+        </div>
+        
+        <div
+          class="t-anchor__item"
+          data-v-775183f2=""
         >
-          多级锚点
-        </a>
-        <!---->
-      </div>
-      <div
-        class="t-anchor__item"
-        data-v-775183f2=""
-      >
-        <a
-          class="t-anchor__item-link"
-          href="#指定容器锚点"
-          target="_self"
-          title="指定容器锚点"
+          <a
+            class="t-anchor__item-link"
+            href="#基础锚点"
+            target="_self"
+            title="基础锚点"
+          >
+            基础锚点
+          </a>
+          <!---->
+        </div>
+        <div
+          class="t-anchor__item"
+          data-v-775183f2=""
         >
-          指定容器锚点
-        </a>
-        <!---->
-      </div>
-      <div
-        class="t-anchor__item"
-        data-v-775183f2=""
-      >
-        <a
-          class="t-anchor__item-link"
-          href="#特定交互锚点"
-          target="_self"
-          title="特定交互锚点"
+          <a
+            class="t-anchor__item-link"
+            href="#多级锚点"
+            target="_self"
+            title="多级锚点"
+          >
+            多级锚点
+          </a>
+          <!---->
+        </div>
+        <div
+          class="t-anchor__item"
+          data-v-775183f2=""
         >
-          特定交互锚点
-        </a>
-        <!---->
-      </div>
-      <div
-        class="t-anchor__item"
-        data-v-775183f2=""
-      >
-        <a
-          class="t-anchor__item-link"
-          href="#不同尺寸的锚点"
-          target="_self"
-          title="不同尺寸的锚点"
+          <a
+            class="t-anchor__item-link"
+            href="#指定容器锚点"
+            target="_self"
+            title="指定容器锚点"
+          >
+            指定容器锚点
+          </a>
+          <!---->
+        </div>
+        <div
+          class="t-anchor__item"
+          data-v-775183f2=""
         >
-          不同尺寸的锚点
-        </a>
-        <!---->
+          <a
+            class="t-anchor__item-link"
+            href="#特定交互锚点"
+            target="_self"
+            title="特定交互锚点"
+          >
+            特定交互锚点
+          </a>
+          <!---->
+        </div>
+        <div
+          class="t-anchor__item"
+          data-v-775183f2=""
+        >
+          <a
+            class="t-anchor__item-link"
+            href="#不同尺寸的锚点"
+            target="_self"
+            title="不同尺寸的锚点"
+          >
+            不同尺寸的锚点
+          </a>
+          <!---->
+        </div>
+        
       </div>
       
     </div>
-    
   </div>
 </div>
 `;
@@ -85439,12 +85445,12 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/base.vue 1`] = `
         >
           <div
             class="t-slider__track"
-            style="width: 0%; left: 0%;"
+            style="width: 12%; left: 0%;"
           />
           <div
             class="t-slider__button-wrapper"
             show-tooltip="true"
-            style="left: 0%;"
+            style="left: 12%;"
             tabindex="0"
           >
             
@@ -85481,12 +85487,12 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/base.vue 1`] = `
         >
           <div
             class="t-slider__track"
-            style="width: 0%; left: 0%;"
+            style="width: 40%; left: 30%;"
           />
           <div
             class="t-slider__button-wrapper"
             show-tooltip="true"
-            style="left: 0%;"
+            style="left: 30%;"
             tabindex="0"
           >
             
@@ -85499,7 +85505,7 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/base.vue 1`] = `
           <div
             class="t-slider__button-wrapper"
             show-tooltip="true"
-            style="left: 0%;"
+            style="left: 70%;"
             tabindex="0"
           >
             
@@ -85544,13 +85550,13 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/disabled.vue 1`] =
         >
           <div
             class="t-slider__track"
-            style="width: 0%; left: 0%;"
+            style="width: 12%; left: 0%;"
           />
           <div
             class="t-slider__button-wrapper"
             disabled="true"
             show-tooltip="true"
-            style="left: 0%;"
+            style="left: 12%;"
             tabindex="0"
           >
             
@@ -85589,13 +85595,13 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/disabled.vue 1`] =
         >
           <div
             class="t-slider__track"
-            style="width: 0%; left: 0%;"
+            style="width: 40%; left: 30%;"
           />
           <div
             class="t-slider__button-wrapper"
             disabled="true"
             show-tooltip="true"
-            style="left: 0%;"
+            style="left: 30%;"
             tabindex="0"
           >
             
@@ -85609,7 +85615,7 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/disabled.vue 1`] =
             class="t-slider__button-wrapper"
             disabled="true"
             show-tooltip="true"
-            style="left: 0%;"
+            style="left: 70%;"
             tabindex="0"
           >
             
@@ -85653,12 +85659,12 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/input-number.vue 1
         >
           <div
             class="t-slider__track"
-            style="width: 0%; left: 0%;"
+            style="width: 12%; left: 0%;"
           />
           <div
             class="t-slider__button-wrapper"
             show-tooltip="true"
-            style="left: 0%;"
+            style="left: 12%;"
             tabindex="0"
           >
             
@@ -85771,12 +85777,12 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/input-number.vue 1
         >
           <div
             class="t-slider__track"
-            style="width: 0%; left: 0%;"
+            style="width: 40%; left: 30%;"
           />
           <div
             class="t-slider__button-wrapper"
             show-tooltip="true"
-            style="left: 0%;"
+            style="left: 30%;"
             tabindex="0"
           >
             
@@ -85789,7 +85795,7 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/input-number.vue 1
           <div
             class="t-slider__button-wrapper"
             show-tooltip="true"
-            style="left: 0%;"
+            style="left: 70%;"
             tabindex="0"
           >
             
@@ -85810,7 +85816,7 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/input-number.vue 1
           class="t-input-number t-size-m t-is-controls-right t-input-number--column t-slider__input"
         >
           <button
-            class="t-button t-size-m t-button--variant-outline t-button--theme-default t-button--shape-square t-button--icon-only t-input-number__decrease t-is-disabled"
+            class="t-button t-size-m t-button--variant-outline t-button--theme-default t-button--shape-square t-button--icon-only t-input-number__decrease"
             type="button"
           >
             
@@ -85883,7 +85889,7 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/input-number.vue 1
           class="t-input-number t-size-m t-is-controls-right t-input-number--column t-slider__input"
         >
           <button
-            class="t-button t-size-m t-button--variant-outline t-button--theme-default t-button--shape-square t-button--icon-only t-input-number__decrease t-is-disabled"
+            class="t-button t-size-m t-button--variant-outline t-button--theme-default t-button--shape-square t-button--icon-only t-input-number__decrease"
             type="button"
           >
             
@@ -85980,12 +85986,12 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/input-number-verti
         >
           <div
             class="t-slider__track"
-            style="height: 0%; bottom: 0%;"
+            style="height: 12%; bottom: 0%;"
           />
           <div
             class="t-slider__button-wrapper"
             show-tooltip="true"
-            style="bottom: 0%;"
+            style="bottom: 12%;"
             tabindex="0"
           >
             
@@ -86099,12 +86105,12 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/input-number-verti
         >
           <div
             class="t-slider__track"
-            style="height: 0%; bottom: 0%;"
+            style="height: 40%; bottom: 30%;"
           />
           <div
             class="t-slider__button-wrapper"
             show-tooltip="true"
-            style="bottom: 0%;"
+            style="bottom: 30%;"
             tabindex="0"
           >
             
@@ -86117,7 +86123,7 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/input-number-verti
           <div
             class="t-slider__button-wrapper"
             show-tooltip="true"
-            style="bottom: 0%;"
+            style="bottom: 70%;"
             tabindex="0"
           >
             
@@ -86138,7 +86144,7 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/input-number-verti
           class="t-input-number t-size-m t-is-controls-right t-input-number--column t-slider__input is-vertical"
         >
           <button
-            class="t-button t-size-m t-button--variant-outline t-button--theme-default t-button--shape-square t-button--icon-only t-input-number__decrease t-is-disabled"
+            class="t-button t-size-m t-button--variant-outline t-button--theme-default t-button--shape-square t-button--icon-only t-input-number__decrease"
             type="button"
           >
             
@@ -86211,7 +86217,7 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/input-number-verti
           class="t-input-number t-size-m t-is-controls-right t-input-number--column t-slider__input is-vertical"
         >
           <button
-            class="t-button t-size-m t-button--variant-outline t-button--theme-default t-button--shape-square t-button--icon-only t-input-number__decrease t-is-disabled"
+            class="t-button t-size-m t-button--variant-outline t-button--theme-default t-button--shape-square t-button--icon-only t-input-number__decrease"
             type="button"
           >
             
@@ -86307,12 +86313,12 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/marks.vue 1`] = `
         >
           <div
             class="t-slider__track"
-            style="width: 0%; left: 0%;"
+            style="width: 12%; left: 0%;"
           />
           <div
             class="t-slider__button-wrapper"
             show-tooltip="true"
-            style="left: 0%;"
+            style="left: 12%;"
             tabindex="0"
           >
             
@@ -86429,12 +86435,12 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/marks.vue 1`] = `
         >
           <div
             class="t-slider__track"
-            style="width: 0%; left: 0%;"
+            style="width: 40%; left: 30%;"
           />
           <div
             class="t-slider__button-wrapper"
             show-tooltip="true"
-            style="left: 0%;"
+            style="left: 30%;"
             tabindex="0"
           >
             
@@ -86447,7 +86453,7 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/marks.vue 1`] = `
           <div
             class="t-slider__button-wrapper"
             show-tooltip="true"
-            style="left: 0%;"
+            style="left: 70%;"
             tabindex="0"
           >
             
@@ -86559,12 +86565,12 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/marks.vue 1`] = `
         >
           <div
             class="t-slider__track"
-            style="width: 0%; left: 0%;"
+            style="width: 10%; left: 0%;"
           />
           <div
             class="t-slider__button-wrapper"
             show-tooltip="true"
-            style="left: 0%;"
+            style="left: 10%;"
             tabindex="0"
           >
             
@@ -86660,12 +86666,12 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/min-and-max.vue 1`
         >
           <div
             class="t-slider__track"
-            style="width: -50%; left: 0%;"
+            style="width: 10%; left: 0%;"
           />
           <div
             class="t-slider__button-wrapper"
             show-tooltip="true"
-            style="left: -50%;"
+            style="left: 10%;"
             tabindex="0"
           >
             
@@ -86734,12 +86740,12 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/min-and-max.vue 1`
         >
           <div
             class="t-slider__track"
-            style="width: 0%; left: -50%;"
+            style="width: 40%; left: 10%;"
           />
           <div
             class="t-slider__button-wrapper"
             show-tooltip="true"
-            style="left: -50%;"
+            style="left: 10%;"
             tabindex="0"
           >
             
@@ -86752,7 +86758,7 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/min-and-max.vue 1`
           <div
             class="t-slider__button-wrapper"
             show-tooltip="true"
-            style="left: -50%;"
+            style="left: 50%;"
             tabindex="0"
           >
             
@@ -86827,12 +86833,12 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/step.vue 1`] = `
         >
           <div
             class="t-slider__track"
-            style="width: 0%; left: 0%;"
+            style="width: 12%; left: 0%;"
           />
           <div
             class="t-slider__button-wrapper"
             show-tooltip="true"
-            style="left: 0%;"
+            style="left: 12%;"
             tabindex="0"
           >
             
@@ -86870,12 +86876,12 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/step.vue 1`] = `
         >
           <div
             class="t-slider__track"
-            style="width: 0%; left: 0%;"
+            style="width: 40%; left: 30%;"
           />
           <div
             class="t-slider__button-wrapper"
             show-tooltip="true"
-            style="left: 0%;"
+            style="left: 30%;"
             tabindex="0"
           >
             
@@ -86888,7 +86894,7 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/step.vue 1`] = `
           <div
             class="t-slider__button-wrapper"
             show-tooltip="true"
-            style="left: 0%;"
+            style="left: 70%;"
             tabindex="0"
           >
             
@@ -86933,12 +86939,12 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/vertical.vue 1`] =
         >
           <div
             class="t-slider__track"
-            style="height: 0%; bottom: 0%;"
+            style="height: 12%; bottom: 0%;"
           />
           <div
             class="t-slider__button-wrapper"
             show-tooltip="true"
-            style="bottom: 0%;"
+            style="bottom: 12%;"
             tabindex="0"
           >
             
@@ -86977,12 +86983,12 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/vertical.vue 1`] =
         >
           <div
             class="t-slider__track"
-            style="height: 0%; bottom: 0%;"
+            style="height: 40%; bottom: 30%;"
           />
           <div
             class="t-slider__button-wrapper"
             show-tooltip="true"
-            style="bottom: 0%;"
+            style="bottom: 30%;"
             tabindex="0"
           >
             
@@ -86995,7 +87001,7 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/vertical.vue 1`] =
           <div
             class="t-slider__button-wrapper"
             show-tooltip="true"
-            style="bottom: 0%;"
+            style="bottom: 70%;"
             tabindex="0"
           >
             
@@ -87041,12 +87047,12 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/vertical-marks.vue
         >
           <div
             class="t-slider__track"
-            style="height: 0%; bottom: 0%;"
+            style="height: 12%; bottom: 0%;"
           />
           <div
             class="t-slider__button-wrapper"
             show-tooltip="true"
-            style="bottom: 0%;"
+            style="bottom: 12%;"
             tabindex="0"
           >
             
@@ -87165,12 +87171,12 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/vertical-marks.vue
         >
           <div
             class="t-slider__track"
-            style="height: 0%; bottom: 0%;"
+            style="height: 40%; bottom: 30%;"
           />
           <div
             class="t-slider__button-wrapper"
             show-tooltip="true"
-            style="bottom: 0%;"
+            style="bottom: 30%;"
             tabindex="0"
           >
             
@@ -87183,7 +87189,7 @@ exports[`csr snapshot test > csr test ./examples/slider/demos/vertical-marks.vue
           <div
             class="t-slider__button-wrapper"
             show-tooltip="true"
-            style="bottom: 0%;"
+            style="bottom: 70%;"
             tabindex="0"
           >
             
@@ -88351,6 +88357,207 @@ exports[`csr snapshot test > csr test ./examples/steps/demos/status.vue 1`] = `
       </div>
     </div>
     <div
+      class="t-steps-item t-steps-item--finish"
+    >
+      <div
+        class="t-steps-item__inner "
+      >
+        <div
+          class="t-steps-item__icon t-steps-item--finish"
+        >
+          <span
+            class="t-steps-item__icon--number"
+          >
+            <svg
+              class="t-icon t-icon-check"
+              fill="none"
+              height="1em"
+              viewBox="0 0 16 16"
+              width="1em"
+            >
+              <path
+                d="M6.43 9.92l6.23-6.22.92.92-7.15 7.14L1.97 7.3l.92-.92 3.54 3.54z"
+                fill="currentColor"
+                fill-opacity="0.9"
+              />
+            </svg>
+          </span>
+        </div>
+        <div
+          class="t-steps-item__content"
+        >
+          <div
+            class="t-steps-item__title"
+          >
+            已完成的步骤
+          </div>
+          <div
+            class="t-steps-item__description"
+          >
+            这里是提示文字
+          </div>
+          <div
+            class="t-steps-item__extra"
+          >
+            <!---->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="t-steps-item t-steps-item--finish"
+    >
+      <div
+        class="t-steps-item__inner "
+      >
+        <div
+          class="t-steps-item__icon t-steps-item--finish"
+        >
+          <span
+            class="t-steps-item__icon--number"
+          >
+            <svg
+              class="t-icon t-icon-check"
+              fill="none"
+              height="1em"
+              viewBox="0 0 16 16"
+              width="1em"
+            >
+              <path
+                d="M6.43 9.92l6.23-6.22.92.92-7.15 7.14L1.97 7.3l.92-.92 3.54 3.54z"
+                fill="currentColor"
+                fill-opacity="0.9"
+              />
+            </svg>
+          </span>
+        </div>
+        <div
+          class="t-steps-item__content"
+        >
+          <div
+            class="t-steps-item__title"
+          >
+            已完成的步骤
+          </div>
+          <div
+            class="t-steps-item__description"
+          >
+            这里是提示文字
+          </div>
+          <div
+            class="t-steps-item__extra"
+          >
+            <!---->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="t-steps-item t-steps-item--finish"
+    >
+      <div
+        class="t-steps-item__inner "
+      >
+        <div
+          class="t-steps-item__icon t-steps-item--finish"
+        >
+          <span
+            class="t-steps-item__icon--number"
+          >
+            <svg
+              class="t-icon t-icon-check"
+              fill="none"
+              height="1em"
+              viewBox="0 0 16 16"
+              width="1em"
+            >
+              <path
+                d="M6.43 9.92l6.23-6.22.92.92-7.15 7.14L1.97 7.3l.92-.92 3.54 3.54z"
+                fill="currentColor"
+                fill-opacity="0.9"
+              />
+            </svg>
+          </span>
+        </div>
+        <div
+          class="t-steps-item__content"
+        >
+          <div
+            class="t-steps-item__title"
+          >
+            已完成的步骤
+          </div>
+          <div
+            class="t-steps-item__description"
+          >
+            这里是提示文字
+          </div>
+          <div
+            class="t-steps-item__extra"
+          >
+            <!---->
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <div
+    style="margin: 16px 0px;"
+  />
+  <div
+    class="t-steps t-steps--horizontal t-steps--default-anchor t-steps--positive t-steps--line-separator"
+  >
+    
+    <div
+      class="t-steps-item t-steps-item--finish"
+    >
+      <div
+        class="t-steps-item__inner "
+      >
+        <div
+          class="t-steps-item__icon t-steps-item--finish"
+        >
+          <span
+            class="t-steps-item__icon--number"
+          >
+            <svg
+              class="t-icon t-icon-check"
+              fill="none"
+              height="1em"
+              viewBox="0 0 16 16"
+              width="1em"
+            >
+              <path
+                d="M6.43 9.92l6.23-6.22.92.92-7.15 7.14L1.97 7.3l.92-.92 3.54 3.54z"
+                fill="currentColor"
+                fill-opacity="0.9"
+              />
+            </svg>
+          </span>
+        </div>
+        <div
+          class="t-steps-item__content"
+        >
+          <div
+            class="t-steps-item__title"
+          >
+            已完成的步骤
+          </div>
+          <div
+            class="t-steps-item__description"
+          >
+            这里是提示文字
+          </div>
+          <div
+            class="t-steps-item__extra"
+          >
+            <!---->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
       class="t-steps-item t-steps-item--process"
     >
       <div
@@ -89321,9 +89528,113 @@ exports[`csr snapshot test > csr test ./examples/swiper/demos/base.vue 1`] = `
       >
         <div
           class="t-swiper__container"
-          style="transform: translate3d(-0%, 0px, 0px);"
+          style="transform: translate3d(-100%, 0px, 0px);"
         >
           
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              6
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              1
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              2
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              3
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              4
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              5
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              6
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              1
+            </div>
+            
+            
+          </div>
           
         </div>
       </div>
@@ -89331,6 +89642,36 @@ exports[`csr snapshot test > csr test ./examples/swiper/demos/base.vue 1`] = `
         class="t-swiper__navigation t-swiper__navigation-bars"
       >
         
+        <li
+          class="t-swiper__navigation-item t-is-active"
+        >
+          <span />
+        </li>
+        <li
+          class="t-swiper__navigation-item"
+        >
+          <span />
+        </li>
+        <li
+          class="t-swiper__navigation-item"
+        >
+          <span />
+        </li>
+        <li
+          class="t-swiper__navigation-item"
+        >
+          <span />
+        </li>
+        <li
+          class="t-swiper__navigation-item"
+        >
+          <span />
+        </li>
+        <li
+          class="t-swiper__navigation-item"
+        >
+          <span />
+        </li>
         
       </ul>
       <!---->
@@ -89357,6 +89698,118 @@ exports[`csr snapshot test > csr test ./examples/swiper/demos/card.vue 1`] = `
           style="height: 280px;"
         >
           
+          <div
+            class="t-swiper__container__item t-swiper__card"
+            style="transform: translateX(0px) scale(0.6325301204819277); transition: transform 0.3s ease; z-index: 1;"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              6
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item t-swiper__card t-is-active"
+            style="transform: translateX(0px) scale(1); transition: transform 0.3s ease; z-index: 2;"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              1
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item t-swiper__card"
+            style="transform: translateX(0px) scale(0.6325301204819277); transition: transform 0.3s ease; z-index: 1;"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              2
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item t-swiper__card"
+            style="transform: translateX(0px) scale(0.6325301204819277); transition: transform 0.3s ease; z-index: 0;"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              3
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item t-swiper__card"
+            style="transform: translateX(0px) scale(0.6325301204819277); transition: transform 0.3s ease; z-index: 0;"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              4
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item t-swiper__card"
+            style="transform: translateX(0px) scale(0.6325301204819277); transition: transform 0.3s ease; z-index: 0;"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              5
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item t-swiper__card"
+            style="transform: translateX(0px) scale(0.6325301204819277); transition: transform 0.3s ease; z-index: 1;"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              6
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item t-swiper__card t-is-active"
+            style="transform: translateX(0px) scale(1); transition: transform 0.3s ease; z-index: 2;"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              1
+            </div>
+            
+            
+          </div>
           
         </div>
       </div>
@@ -89364,6 +89817,36 @@ exports[`csr snapshot test > csr test ./examples/swiper/demos/card.vue 1`] = `
         class="t-swiper__navigation t-swiper__navigation-bars"
       >
         
+        <li
+          class="t-swiper__navigation-item t-is-active"
+        >
+          <span />
+        </li>
+        <li
+          class="t-swiper__navigation-item"
+        >
+          <span />
+        </li>
+        <li
+          class="t-swiper__navigation-item"
+        >
+          <span />
+        </li>
+        <li
+          class="t-swiper__navigation-item"
+        >
+          <span />
+        </li>
+        <li
+          class="t-swiper__navigation-item"
+        >
+          <span />
+        </li>
+        <li
+          class="t-swiper__navigation-item"
+        >
+          <span />
+        </li>
         
       </ul>
       <!---->
@@ -89387,9 +89870,113 @@ exports[`csr snapshot test > csr test ./examples/swiper/demos/current.vue 1`] = 
       >
         <div
           class="t-swiper__container"
-          style="transform: translate3d(-0%, 0px, 0px);"
+          style="transform: translate3d(-100%, 0px, 0px);"
         >
           
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              6
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              1
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              2
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              3
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              4
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              5
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              6
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              1
+            </div>
+            
+            
+          </div>
           
         </div>
       </div>
@@ -89397,6 +89984,36 @@ exports[`csr snapshot test > csr test ./examples/swiper/demos/current.vue 1`] = 
         class="t-swiper__navigation t-swiper__navigation-bars"
       >
         
+        <li
+          class="t-swiper__navigation-item t-is-active"
+        >
+          <span />
+        </li>
+        <li
+          class="t-swiper__navigation-item"
+        >
+          <span />
+        </li>
+        <li
+          class="t-swiper__navigation-item"
+        >
+          <span />
+        </li>
+        <li
+          class="t-swiper__navigation-item"
+        >
+          <span />
+        </li>
+        <li
+          class="t-swiper__navigation-item"
+        >
+          <span />
+        </li>
+        <li
+          class="t-swiper__navigation-item"
+        >
+          <span />
+        </li>
         
       </ul>
       <!---->
@@ -89439,6 +90056,90 @@ exports[`csr snapshot test > csr test ./examples/swiper/demos/fade.vue 1`] = `
           style="height: 280px;"
         >
           
+          <div
+            class="t-swiper__container__item t-swiper__fade"
+            style="opacity: 1;"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              1
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item t-swiper__fade"
+            style="opacity: 0;"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              2
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item t-swiper__fade"
+            style="opacity: 0;"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              3
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item t-swiper__fade"
+            style="opacity: 0;"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              4
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item t-swiper__fade"
+            style="opacity: 0;"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              5
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item t-swiper__fade"
+            style="opacity: 0;"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              6
+            </div>
+            
+            
+          </div>
           
         </div>
       </div>
@@ -89446,6 +90147,36 @@ exports[`csr snapshot test > csr test ./examples/swiper/demos/fade.vue 1`] = `
         class="t-swiper__navigation t-swiper__navigation-bars"
       >
         
+        <li
+          class="t-swiper__navigation-item t-is-active"
+        >
+          <span />
+        </li>
+        <li
+          class="t-swiper__navigation-item"
+        >
+          <span />
+        </li>
+        <li
+          class="t-swiper__navigation-item"
+        >
+          <span />
+        </li>
+        <li
+          class="t-swiper__navigation-item"
+        >
+          <span />
+        </li>
+        <li
+          class="t-swiper__navigation-item"
+        >
+          <span />
+        </li>
+        <li
+          class="t-swiper__navigation-item"
+        >
+          <span />
+        </li>
         
       </ul>
       <!---->
@@ -89469,9 +90200,113 @@ exports[`csr snapshot test > csr test ./examples/swiper/demos/fraction.vue 1`] =
       >
         <div
           class="t-swiper__container"
-          style="transform: translate3d(-0%, 0px, 0px);"
+          style="transform: translate3d(-100%, 0px, 0px);"
         >
           
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              6
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              1
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              2
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              3
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              4
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              5
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              6
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              1
+            </div>
+            
+            
+          </div>
           
         </div>
       </div>
@@ -89503,7 +90338,7 @@ exports[`csr snapshot test > csr test ./examples/swiper/demos/fraction.vue 1`] =
           >
             1
             /
-            0
+            6
           </div>
           <div
             class="t-swiper__arrow-right"
@@ -89545,9 +90380,113 @@ exports[`csr snapshot test > csr test ./examples/swiper/demos/placement.vue 1`] 
       >
         <div
           class="t-swiper__container"
-          style="transform: translate3d(-0%, 0px, 0px);"
+          style="transform: translate3d(-100%, 0px, 0px);"
         >
           
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              6
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              1
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              2
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              3
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              4
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              5
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              6
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              1
+            </div>
+            
+            
+          </div>
           
         </div>
       </div>
@@ -89555,6 +90494,36 @@ exports[`csr snapshot test > csr test ./examples/swiper/demos/placement.vue 1`] 
         class="t-swiper__navigation t-swiper__navigation-bars"
       >
         
+        <li
+          class="t-swiper__navigation-item t-is-active"
+        >
+          <span />
+        </li>
+        <li
+          class="t-swiper__navigation-item"
+        >
+          <span />
+        </li>
+        <li
+          class="t-swiper__navigation-item"
+        >
+          <span />
+        </li>
+        <li
+          class="t-swiper__navigation-item"
+        >
+          <span />
+        </li>
+        <li
+          class="t-swiper__navigation-item"
+        >
+          <span />
+        </li>
+        <li
+          class="t-swiper__navigation-item"
+        >
+          <span />
+        </li>
         
       </ul>
       <!---->
@@ -89583,9 +90552,113 @@ exports[`csr snapshot test > csr test ./examples/swiper/demos/size.vue 1`] = `
         >
           <div
             class="t-swiper__container"
-            style="transform: translate3d(-0%, 0px, 0px);"
+            style="transform: translate3d(-100%, 0px, 0px);"
           >
             
+            <div
+              class="t-swiper__container__item"
+            >
+              
+              
+              <div
+                class="demo-item demo-large"
+              >
+                6
+              </div>
+              
+              
+            </div>
+            <div
+              class="t-swiper__container__item"
+            >
+              
+              
+              <div
+                class="demo-item demo-large"
+              >
+                1
+              </div>
+              
+              
+            </div>
+            <div
+              class="t-swiper__container__item"
+            >
+              
+              
+              <div
+                class="demo-item demo-large"
+              >
+                2
+              </div>
+              
+              
+            </div>
+            <div
+              class="t-swiper__container__item"
+            >
+              
+              
+              <div
+                class="demo-item demo-large"
+              >
+                3
+              </div>
+              
+              
+            </div>
+            <div
+              class="t-swiper__container__item"
+            >
+              
+              
+              <div
+                class="demo-item demo-large"
+              >
+                4
+              </div>
+              
+              
+            </div>
+            <div
+              class="t-swiper__container__item"
+            >
+              
+              
+              <div
+                class="demo-item demo-large"
+              >
+                5
+              </div>
+              
+              
+            </div>
+            <div
+              class="t-swiper__container__item"
+            >
+              
+              
+              <div
+                class="demo-item demo-large"
+              >
+                6
+              </div>
+              
+              
+            </div>
+            <div
+              class="t-swiper__container__item"
+            >
+              
+              
+              <div
+                class="demo-item demo-large"
+              >
+                1
+              </div>
+              
+              
+            </div>
             
           </div>
         </div>
@@ -89593,6 +90666,36 @@ exports[`csr snapshot test > csr test ./examples/swiper/demos/size.vue 1`] = `
           class="t-swiper__navigation t-swiper__navigation-bars"
         >
           
+          <li
+            class="t-swiper__navigation-item t-is-active"
+          >
+            <span />
+          </li>
+          <li
+            class="t-swiper__navigation-item"
+          >
+            <span />
+          </li>
+          <li
+            class="t-swiper__navigation-item"
+          >
+            <span />
+          </li>
+          <li
+            class="t-swiper__navigation-item"
+          >
+            <span />
+          </li>
+          <li
+            class="t-swiper__navigation-item"
+          >
+            <span />
+          </li>
+          <li
+            class="t-swiper__navigation-item"
+          >
+            <span />
+          </li>
           
         </ul>
         <!---->
@@ -89617,9 +90720,113 @@ exports[`csr snapshot test > csr test ./examples/swiper/demos/size.vue 1`] = `
         >
           <div
             class="t-swiper__container"
-            style="transform: translate3d(-0%, 0px, 0px);"
+            style="transform: translate3d(-100%, 0px, 0px);"
           >
             
+            <div
+              class="t-swiper__container__item"
+            >
+              
+              
+              <div
+                class="demo-item demo-small"
+              >
+                6
+              </div>
+              
+              
+            </div>
+            <div
+              class="t-swiper__container__item"
+            >
+              
+              
+              <div
+                class="demo-item demo-small"
+              >
+                1
+              </div>
+              
+              
+            </div>
+            <div
+              class="t-swiper__container__item"
+            >
+              
+              
+              <div
+                class="demo-item demo-small"
+              >
+                2
+              </div>
+              
+              
+            </div>
+            <div
+              class="t-swiper__container__item"
+            >
+              
+              
+              <div
+                class="demo-item demo-small"
+              >
+                3
+              </div>
+              
+              
+            </div>
+            <div
+              class="t-swiper__container__item"
+            >
+              
+              
+              <div
+                class="demo-item demo-small"
+              >
+                4
+              </div>
+              
+              
+            </div>
+            <div
+              class="t-swiper__container__item"
+            >
+              
+              
+              <div
+                class="demo-item demo-small"
+              >
+                5
+              </div>
+              
+              
+            </div>
+            <div
+              class="t-swiper__container__item"
+            >
+              
+              
+              <div
+                class="demo-item demo-small"
+              >
+                6
+              </div>
+              
+              
+            </div>
+            <div
+              class="t-swiper__container__item"
+            >
+              
+              
+              <div
+                class="demo-item demo-small"
+              >
+                1
+              </div>
+              
+              
+            </div>
             
           </div>
         </div>
@@ -89627,6 +90834,36 @@ exports[`csr snapshot test > csr test ./examples/swiper/demos/size.vue 1`] = `
           class="t-swiper__navigation t-swiper__navigation-bars"
         >
           
+          <li
+            class="t-swiper__navigation-item t-is-active"
+          >
+            <span />
+          </li>
+          <li
+            class="t-swiper__navigation-item"
+          >
+            <span />
+          </li>
+          <li
+            class="t-swiper__navigation-item"
+          >
+            <span />
+          </li>
+          <li
+            class="t-swiper__navigation-item"
+          >
+            <span />
+          </li>
+          <li
+            class="t-swiper__navigation-item"
+          >
+            <span />
+          </li>
+          <li
+            class="t-swiper__navigation-item"
+          >
+            <span />
+          </li>
           
         </ul>
         <!---->
@@ -89651,9 +90888,113 @@ exports[`csr snapshot test > csr test ./examples/swiper/demos/vertical.vue 1`] =
       >
         <div
           class="t-swiper__container"
-          style="height: 280px; transform: translate3d(0, -0%, 0px);"
+          style="height: 280px; transform: translate3d(0, -100%, 0px);"
         >
           
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              6
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              1
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              2
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              3
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              4
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              5
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              6
+            </div>
+            
+            
+          </div>
+          <div
+            class="t-swiper__container__item"
+          >
+            
+            
+            <div
+              class="demo-item"
+            >
+              1
+            </div>
+            
+            
+          </div>
           
         </div>
       </div>
@@ -89661,6 +91002,36 @@ exports[`csr snapshot test > csr test ./examples/swiper/demos/vertical.vue 1`] =
         class="t-swiper__navigation t-swiper__navigation-bars"
       >
         
+        <li
+          class="t-swiper__navigation-item t-is-active"
+        >
+          <span />
+        </li>
+        <li
+          class="t-swiper__navigation-item"
+        >
+          <span />
+        </li>
+        <li
+          class="t-swiper__navigation-item"
+        >
+          <span />
+        </li>
+        <li
+          class="t-swiper__navigation-item"
+        >
+          <span />
+        </li>
+        <li
+          class="t-swiper__navigation-item"
+        >
+          <span />
+        </li>
+        <li
+          class="t-swiper__navigation-item"
+        >
+          <span />
+        </li>
         
       </ul>
       <!---->
