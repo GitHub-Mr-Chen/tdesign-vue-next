@@ -54,7 +54,7 @@ export default defineComponent({
     const activeValues = ref([]);
 
     watchEffect(() => {
-      mode.value = props.collapsed ? 'popup' : 'normal';
+      mode.value = props.collapsed ? 'popup' : props.expandType;
       props.onCollapsed?.({ collapsed: props.collapsed });
     });
 
@@ -97,8 +97,7 @@ export default defineComponent({
     const updateActiveValues = (value: MenuValue) => {
       activeValues.value = vMenu.select(value);
     };
-    watch(() => props.value, updateActiveValues);
-    watch(() => props.defaultValue, updateActiveValues);
+    watch(activeValue, updateActiveValues);
 
     // timelifes
     onMounted(() => {
